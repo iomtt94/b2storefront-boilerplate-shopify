@@ -107,6 +107,48 @@
             }
         }
     }
+    &-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 32px 0px;
+        border-top: 1px solid #F6F8FB;
+        margin-top: 40px;
+        &__left {
+            .copyright {
+                display: inline-block;
+                margin-right: 8px;
+            }
+            span {
+                font-family: 'Basier Square';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                color: #434447;
+            }
+        }
+        &__right {
+            display: flex;
+            align-items: center;
+        }
+        &__socials {
+            margin-right: 40px;
+            a {
+                margin-right: 16px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                img {
+                    transition: all .3s ease;
+                    &:hover {
+                        transition: all .3s ease;
+                        transform: translateY(-2px);
+                    }
+                }
+            }
+        }
+    }
 }
 
 .form-check-input[type=checkbox] {

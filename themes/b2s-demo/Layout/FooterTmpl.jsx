@@ -17,7 +17,7 @@ const FooterTmpl = () => {
                         </h3>
                         <p>Keep up to date with the latest product launches and news. Find out more about our brands and get special promo codes.</p>
                         <form action="#" name='form'>
-                            <input type="email" name="" id="" placeholder='Your e-mail address' />
+                            <input type="email" name="email" id="" placeholder='Your e-mail address' />
                             <button type="submit">Sign up for newsletter</button>
                             <div className="form-check mt-3">
                                 <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
@@ -107,6 +107,22 @@ const FooterTmpl = () => {
                             <a href="#">Personal Data Request</a>
                         </li>
                     </ul>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-12 footer-bottom">
+                    <div className="footer-bottom__left">
+                        <img className="copyright" src="/images/copyright.svg" alt="" />
+                        <span>2021 Divante S.A.</span>
+                    </div>
+                    <div className="footer-bottom__right">
+                        <div className="footer-bottom__socials">
+                            <a className='d-inline-block' href="#"><img src="/images/socials/facebook.svg" alt="" /></a>
+                            <a className='d-inline-block' href="#"><img src="/images/socials/instagram.svg" alt="" /></a>
+                            <a className='d-inline-block' href="#"><img src="/images/socials/youtube.svg" alt="" /></a>
+                        </div>
+                        <img src="/images/logotype.svg" alt="" />
+                    </div>
                 </div>
             </div>
         </div>
