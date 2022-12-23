@@ -1,0 +1,35 @@
+.header {
+    background: #F6F8FB;
+    &-top {
+        display: flex;
+        justify-content: space-between;
+        padding: 9px 0px;
+        &__left {
+            display: flex;
+        }
+        &__right {
+
+        }
+    }
+}
+
+.btn.btn-dropdown {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 0px 10px;
+    border: none;
+    &::after {
+        content: url(../images/arrow-down.svg);
+        background-repeat: no-repeat;
+        border: none;
+        margin-left: 10px;
+        position: relative;
+        top: 3px;
+    }
+}
+
+.dropdown {
+    display: flex;
+    align-items: baseline;
+}

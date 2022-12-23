@@ -12,6 +12,7 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=no"
         />
         {props.headComponents}
+        <script src="/js/bootstrap-js/bootstrap.bundle.min.js" />
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}

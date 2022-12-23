@@ -126,7 +126,6 @@ const FooterTmpl = () => {
                 </div>
             </div>
         </div>
-
     </footer>
   )
 }
