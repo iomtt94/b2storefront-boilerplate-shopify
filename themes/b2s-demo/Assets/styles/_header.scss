@@ -334,12 +334,24 @@
         margin-right: 0;
     }
     &::after {
-        content: url(../images/arrow-down.svg);
+        content: '';
+        background: url(../images/arrow-down.svg);
         background-repeat: no-repeat;
+        display: inline-block;
+        width: 13px;
+        height: 10px;
         border: none;
         margin-left: 10px;
         position: relative;
-        top: 3px;
+        top: 4px;
+        transition: all .3s ease;
+    }
+    &[aria-expanded=true] {
+        &::after {
+            top: 3px;
+            transition: all .3s ease;
+            transform: rotate(180deg);
+        }
     }
 }
 
@@ -362,7 +374,7 @@
 .dropdown-username {
     .btn.btn-dropdown {
         &::after {
-            top: -1px;
+            top: 1px;
         }
     }
 }

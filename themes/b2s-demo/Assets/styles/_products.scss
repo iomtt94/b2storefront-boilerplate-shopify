@@ -22,12 +22,95 @@
             border-top-right-radius: 0;
             padding: 8px;
             p {
-                font-family: 'Basier Square';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 24px;
                 margin-bottom: 4px;
+            }
+            form {
+                margin-top: 10px;
+                .product-form__count {
+                    display: grid;
+                    grid-template-columns: 0.7fr 1fr;
+                    place-content: center;
+                    gap: 10px 8px;
+                }
+                button[type=submit] {
+                    font-family: "Basier Square";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 16px;
+                    color: #fff;
+                    padding: 16px 32px;
+                    background: #1071FF;
+                    border-radius: 30px;
+                    transition: all 0.3s ease;
+                    width: 100%;
+                    text-align: center;
+                    border: 2px solid transparent;
+                    margin-top: 10px;
+                    transition: all .3s ease;
+                    &:hover {
+                        color: #1071FF;
+                        background-color: #fff;
+                        transition: all .3s ease;
+                        border: 2px solid #1071FF;
+                    }
+                }
+                input[type=number] {
+                    border: 1px solid #EAECEE;
+                    border-radius: 8px;
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 12px 16px;
+                    width: 100%;
+                    transition: all .3s ease;
+                    text-align: center;
+                    &:focus-within {
+                        transition: all 0.3s ease;
+                        outline: none;
+                        border: 1px solid #cfd0d1;
+                    }
+                }
+                .dropdown-type {
+                    border: 1px solid #EAECEE;
+                    border-radius: 8px;
+                    display: inline-flex;
+                    align-items: center;
+                    width: 100%;
+                    transition: all 0.3s ease;
+                    height: 100%;
+                    text-align: left;
+                    padding-left: 16px;
+                    padding-right: 20px;
+                    &[aria-expanded="true"] {
+                        border: 1px solid #cfd0d1;
+                    }
+                }
+            }
+            .dropdown {
+                .dropdown-type {
+                    transition: all .3s ease;
+                    &::after {
+                        transition: all .3s ease;
+                        content: '';
+                        background: url(../images/products/product-arrow-dropdown.svg);
+                        width: 12px;
+                        height: 9px;
+                        background-repeat: no-repeat;
+                        border: none;
+                        position: absolute;
+                        right: 22px;
+                        top: 22px;
+                        transform: rotate(0deg);
+                    }
+                    &[aria-expanded=true] {
+                        transition: all .3s ease;
+                        &::after {
+                            transition: all .3s ease;
+                            transform: rotate(180deg);
+                        }
+                    }
+                }
             }
         }
         &__image {
@@ -38,6 +121,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-bottom: 28px;
         &__left {
             h3 {
                 font-family: 'Basier Circle';
@@ -155,5 +239,25 @@
         font-size: 20px;
         line-height: 26px;
         color: #0C0C0C;
+    }
+    &-price {
+        font-family: 'Basier Square';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #1071FF;
+        margin-top: 16px;
+        span:nth-child(1) {
+            margin: 0 4px;
+            font-size: 26px;
+        }
+        span:nth-child(2) {
+            margin: 0 4px;
+            color: #FF7E27;
+            font-size: 16px;
+            font-weight: 400;
+            text-decoration: line-through;
+        }
     }
 }

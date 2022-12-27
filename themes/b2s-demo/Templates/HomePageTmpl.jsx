@@ -81,6 +81,25 @@ const HomePageTmpl = ({ allCollections, allProducts, collections, products }) =>
                 <p className="product-detail">
                   Guarantee: 5 years
                 </p>
+                <p className="product-price">
+                  your price<span>$45.00</span>net<span>$55.00 net</span>
+                </p>
+                <form action="#" name="name">
+                  <div className="product-form__count">
+                    <input type="number" name="quantity"  id="" />
+                    <div class="dropdown">
+                      <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Item
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <button type="submit">Add to cart</button>
+                </form>
               </div>
             </div>
 
