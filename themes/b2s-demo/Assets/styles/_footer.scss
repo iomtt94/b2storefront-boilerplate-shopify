@@ -1,4 +1,6 @@
 .footer {
+    background-color: #F6F8FB;
+    padding-top: 40px;
     &-links__container {
         display: flex;
         justify-content: space-around;
@@ -115,6 +117,8 @@
         border-top: 1px solid #F6F8FB;
         margin-top: 40px;
         &__left {
+            display: flex;
+            align-items: center;
             .copyright {
                 display: inline-block;
                 margin-right: 8px;
