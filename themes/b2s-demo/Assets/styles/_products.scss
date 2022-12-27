@@ -1,6 +1,7 @@
 .product {
     &-list {
-        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(300px, 1fr));
         &__item {
             max-width: 300px;
         }
@@ -122,6 +123,7 @@
         align-items: center;
         justify-content: space-between;
         margin-bottom: 28px;
+        margin-top: 80px;
         &__left {
             h3 {
                 font-family: 'Basier Circle';
