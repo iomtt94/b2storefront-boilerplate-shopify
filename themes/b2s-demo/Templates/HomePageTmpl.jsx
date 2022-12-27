@@ -24,37 +24,50 @@ const HomePageTmpl = ({ allCollections, allProducts, collections, products }) =>
       />
       <section className="section section-home-page">
         <div className="container">
-          <h1 className="text-center">New Arrivals</h1>
-          <p className="text-center mb-5">See our newest products, just arrived to our online store!</p>
-          <div className="categories__list">
-            {collections['new-arrivals'].products.map((product) => (
-              <div className="product__item" key={product.id}>
-                <div className="product__item--image">
-                  <Link href={getProductPath(product.slug)}>
-                    <img
-                      src={product.featured_image.url}
-                      data-src={product.featured_image.url}
-                      className="lazy"
-                      alt={product.title}
-                      width={272}
-                      height={385}
-                    />
-                  </Link>
-                  {!!product.prices.old_min && (
-                    <span className="badge badge-sale">Sale</span>
-                  )}
+          <div className="product-list">
+            <div className="product-type">
+              <div className="product-type__left">
+                <h3>Related products</h3>
+              </div>
+              <div className="product-type__right">
+                <a href="#">
+                  <span>Show all recommended products</span>
+                  <img src="images/arrow-product-right.svg" alt="arrow-recommended" />
+                </a>
+              </div>
+            </div>
+
+            <div className="product-list__item">
+              <div className="product-item__top">
+                <div className="product-actions__top">
+                  <span className="product-discount">
+                    -30%
+                  </span>
+                  <span className="product-bookmark">
+                    <img src="images/product-star.svg" alt="" />
+                  </span>
                 </div>
-                <div className="product__item--name">
-                  <a href="#">{product.title}</a>
+                <div className="product-item__image">
+                  <img src="images/products/product-image-1.jpg" alt="" />
                 </div>
-                <div className="product__item--price">
-                  <span className="new-price">${product.prices.min}</span>
-                  {!!product.prices.old_min && (
-                    <span className="old-price">${product.prices.old_min}</span>
-                  )}
+                <div className="product-actions__bottom">
+                  <div className="product-status">
+                    <img src="images/products/in-stock.svg" alt="in-stock" />
+                    <span>In stock</span> 
+                  </div>
+                  <div className="product-share">
+                    <button>
+                      <img src="images/products/product-compare.svg" alt="product-compare" />
+                    </button>
+                    <button>
+                      <img src="images/products/product-share.svg" alt="product-share" />
+                    </button>
+                  </div>
                 </div>
               </div>
-            ))}
+            </div>
+
+
           </div>
         </div>
       </section>

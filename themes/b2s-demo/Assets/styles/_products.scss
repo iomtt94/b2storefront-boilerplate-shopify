@@ -1,0 +1,126 @@
+.product {
+    &-list {
+        margin-top: 80px;
+        &__item {
+            max-width: 300px;
+        }
+    }
+    &-item {
+        max-width: 300px;
+        &__top {
+            border: 1px solid #F6F8FB;
+            border-radius: 8px;
+            position: relative;
+            border-bottom: none;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        &__image {
+            padding: 10px 0;
+        }
+    }
+    &-type {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__left {
+            h3 {
+                font-family: 'Basier Circle';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 36px;
+                color: #0C0C0C;
+            }
+        }
+        &__right {
+            a {
+                font-family: 'Basier Square';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 16px;
+                color: #1071FF;
+                display: flex;
+                align-items: center;
+                transition: all 0.3s ease;
+                &:hover {
+                    transition: all 0.3s ease;
+                    color: #2358a7;
+                    img {
+                        transition: all 0.3s ease;
+                        transform: translateX(3px);
+                    }
+                }
+                img {
+                    transition: all 0.3s ease;
+                    margin-left: 8px;
+                }
+            }
+        }
+    }
+    &-actions {
+        &__top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 12px;
+            position: absolute;
+            width: 100%;
+        }
+        &__bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 18px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 8px;
+        }
+    }
+    &-bookmark {
+        display: flex;
+        align-items: center;
+        padding: 7px;
+        border-radius: 50%;
+        background-color: #E6EFFB;
+        cursor: pointer;
+        position: relative;
+        right: 8px;
+    }
+    &-discount {
+        font-family: 'Basier Square';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 4px 8px;
+        background-color: #FF7E27;
+        color: #FFF;
+    }
+    &-share {
+        button {
+            border: none;
+            background-color: transparent;
+        }
+    }
+    &-status {
+        display: flex;
+        align-items: center;
+        padding: 1px 9px;
+        border: 1px solid #F6F8FB;
+        border-radius: 4px;
+        img {
+            margin-right: 5px;
+        }
+        span {
+            font-family: 'Basier Square';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #00893A;
+        }
+    }
+}
