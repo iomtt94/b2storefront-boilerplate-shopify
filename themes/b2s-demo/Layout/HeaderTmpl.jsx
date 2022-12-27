@@ -117,7 +117,25 @@ const HeaderTmpl = (props) => {
                             <a href="#">OFFICE EQUIPMENT</a>
                         </div>
                         <div className="header-navigation__right">
-
+                            <div className="header-action">
+                                <a href="#">
+                                    <img className="header-action__compare" src="images/compare.svg" alt="compare" />
+                                    <span>COMPARE</span>
+                                </a>
+                            </div>
+                            <div className="header-action">
+                                <a href="#">
+                                    <img className="header-action__bookmarks" src="images/star.svg" alt="bookmarks" />
+                                    <span>FAVORITES</span>
+                                </a>
+                            </div>
+                            <div className="header-action">
+                                <a href="#">
+                                    <img className="header-action__cart" src="images/cart.svg" alt="cart" />
+                                    <span>CART</span>
+                                    <span>Active Cart Name</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
