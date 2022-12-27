@@ -15,6 +15,21 @@
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
         }
+        &__bottom {
+            border: 1px solid #F6F8FB;
+            border-radius: 8px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            padding: 8px;
+            p {
+                font-family: 'Basier Square';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                margin-bottom: 4px;
+            }
+        }
         &__image {
             padding: 10px 0;
         }
@@ -122,5 +137,23 @@
             line-height: 24px;
             color: #00893A;
         }
+    }
+    &-provider {
+        font-family: 'Basier Square';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 170%;
+        color: #737B7D;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+    &-name {
+        font-family: 'Basier Circle';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        color: #0C0C0C;
     }
 }

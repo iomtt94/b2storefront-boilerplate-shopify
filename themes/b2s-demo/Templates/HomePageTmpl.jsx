@@ -65,6 +65,23 @@ const HomePageTmpl = ({ allCollections, allProducts, collections, products }) =>
                   </div>
                 </div>
               </div>
+              <div className="product-item__bottom">
+                <span className="product-provider">
+                  Omnires | Part No. 2123532
+                </span>
+                <h4 className="product-name">
+                  Connection with a handle Omnires round
+                </h4>
+                <p className="product-detail">
+                  Material of execution: brass
+                </p>
+                <p className="product-detail">
+                  Manufacturer’s color: chrome
+                </p>
+                <p className="product-detail">
+                  Guarantee: 5 years
+                </p>
+              </div>
             </div>
 
 
