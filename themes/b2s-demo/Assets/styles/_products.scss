@@ -49,6 +49,14 @@
                     border: 2px solid transparent;
                     margin-top: 10px;
                     transition: all .3s ease;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        position: relative;
+                        margin-left: 10px;
+                        top: 1px;
+                    }
                     &:hover {
                         color: #1071FF;
                         background-color: #fff;
@@ -212,6 +220,11 @@
         padding: 1px 9px;
         border: 1px solid #F6F8FB;
         border-radius: 4px;
+        &.product-status__out {
+            span {
+                color: #F52F2F;
+            }
+        }
         img {
             margin-right: 5px;
         }
@@ -261,5 +274,23 @@
             font-weight: 400;
             text-decoration: line-through;
         }
+    }
+}
+.added-to__cart {
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 15px;
+    font-family: 'Basier Square';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1071FF;
+    background: #E6EFFB;
+    border-radius: 0px 0px 8px 8px;
+    img {
+        margin-right: 9px;
     }
 }
