@@ -4,6 +4,8 @@
         grid-template-columns: repeat(4, minmax(300px, 1fr));
         &__item {
             max-width: 300px;
+            display: flex;
+            flex-direction: column;
         }
     }
     &-item {
