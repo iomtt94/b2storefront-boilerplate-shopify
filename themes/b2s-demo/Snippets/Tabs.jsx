@@ -23,7 +23,7 @@ const Tabs = () => {
                             <div className="tab-pane fade active show" id="navDescriton" role="tabpanel" aria-labelledby="navDescritonTab">
                                 <div className="tab-description__container">
                                     <div className="row">
-                                        <div className="col-7">
+                                        <div className="col-lg-7 col-12">
                                             <p>
                                                 Ecommerce, also known as electronic commerce or internet commerce, refers to the buying and selling of goods or services using the internet, and the transfer of money and data to execute these transactions.
                                                 Ecommerce, also known as electronic commerce or internet commerce, refers to the buying and selling of goods or services using the internet, and the transfer of money and data to execute these transactions.
@@ -33,7 +33,7 @@ const Tabs = () => {
                                                 Ecommerce, also known as electronic commerce or internet commerce, refers to the buying and selling of goods or services using the internet, and the transfer of money and data to execute these transactions.
                                             </p>
                                         </div>
-                                        <div className="col-3">
+                                        <div className="col-12 col-sm-8 col-lg-3">
                                             <div className="description-details">
                                                 <span>Details:</span>
                                                 <ul>
@@ -52,7 +52,7 @@ const Tabs = () => {
                             <div className="tab-pane fade" id="navTechnicalDetails" role="tabpanel" aria-labelledby="navTechnicalDetailsTab">
                                 <div className="tab-technical__container">
                                     <div className="row">
-                                        <div className="col-5">
+                                        <div className="col-12 col-lg-5">
                                             <table className="table table-striped">
                                                 <tbody>
                                                     <tr>
@@ -106,7 +106,7 @@ const Tabs = () => {
                                                 </tbody>
                                             </table>
                                         </div>
-                                        <div className="col-5">
+                                        <div className="col-12 col-lg-5">
                                         <table className="table table-striped">
                                                 <tbody>
                                                     <tr>
@@ -249,7 +249,7 @@ const Tabs = () => {
                             <div className="tab-pane fade" id="navAbout" role="tabpanel" aria-labelledby="navAboutTab">
                                 <div className="tab-about__container">
                                     <div className="row">
-                                        <div className="col-5">
+                                        <div className="col-xs-12 col-sm-9 col-lg-5">
                                             <p>
                                                 Are you curious about the product? Do you have question about using it? Ask us!
                                             </p>

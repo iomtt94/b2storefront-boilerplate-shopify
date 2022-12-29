@@ -104,7 +104,7 @@
             }
         }
         td:last-of-type {
-            text-align: right!important;
+            text-align: right;
             font-family: 'Basier Square';
             font-style: normal;
             font-weight: 600;
@@ -233,5 +233,40 @@
             line-height: 24px;
             color: #0C0C0C;
         }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .nav.nav-tabs {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-tabs .nav-link {
+        isolation: isolate;
+        margin-right: 0;
+        margin-bottom: 4px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .tab-description__container {
+        padding: 24px;
+    }
+    .tab-technical__container tr {
+        display: flex;
+        flex-wrap: wrap;
+        td {
+            width: 100%;
+            text-align: center!important;
+        }
+    }
+    .tab-technical__container {
+        padding: 24px;
+    }
+    .tab-attachments__container {
+        padding: 16px;
+    }
+    .tab-about__container {
+        padding: 0;
     }
 }

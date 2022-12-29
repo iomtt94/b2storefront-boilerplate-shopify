@@ -133,6 +133,8 @@
         display: flex;
         flex: 1 0 auto;
         max-width: 200px;
+        text-align: center;
+        justify-content: center;
         &:hover {
             color: #fff;
             transition: all .3s ease;
@@ -156,12 +158,14 @@
         }
         button[type=submit] {
             position: absolute;
-            left: 15px;
-            top: 16px;
+            left: 18px;
+            top: 17px;
             z-index: 9;
             border: none;
             background: #0000;
-            display: flex;
+            display: inline-flex;
+            width: auto;
+            padding: 0;
         }
     }
     &-navigation {
@@ -348,6 +352,89 @@
     .btn.btn-dropdown {
         &::after {
             top: 1px;
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .header-navigation {
+        &__left {
+            padding: 15px 0;
+        }
+        & > .container {
+            flex-direction: column;
+        }
+    }
+    .header-secondary h1 img {
+        min-width: 156px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header-navigation__left {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        & > .dropdown {
+            margin-bottom: 10px;
+            margin-right: 0;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+        & > a {
+            margin-bottom: 10px;
+            margin-right: 0;
+        }
+        .btn.btn-dropdown {
+            margin-right: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-secondary > .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        h1 {
+            width: 100%;
+            justify-content: center;
+            img {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .header-form__search {
+        flex: 1 1 45%;
+        margin: 0;
+        margin-right: 15px;
+    }
+    .header-order__btn {
+        flex: 1 1 50%;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header-form__search {
+        flex: 1 1 100%;
+        margin-right: 0;
+    }
+    .header-order__btn {
+        margin: 15px auto;
+        max-width: 260px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .header-navigation__right {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .header-action {
+            margin-right: 0;
+            margin-bottom: 15px;
         }
     }
 }

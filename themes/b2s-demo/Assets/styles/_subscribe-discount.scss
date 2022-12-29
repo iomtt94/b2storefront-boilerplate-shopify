@@ -54,3 +54,13 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .forn-discount__subscribe {
+        flex-direction: column;
+        input[type=email] {
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+    }
+}

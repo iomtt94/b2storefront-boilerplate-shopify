@@ -138,6 +138,7 @@
     border-radius: 4px;
     width: 16px;
     height: 16px;
+    min-width: 16px;
     &:focus {
         box-shadow: none;
         outline: none;
@@ -248,5 +249,19 @@
     }
     .footer-bottom {
         flex-direction: column;
+    }
+    .footer-bottom__right {
+        flex-direction: column;
+        margin-top: 0px;
+        & > img {
+            margin-top: 10px;
+        }
+    }
+    .footer-bottom__socials {
+        margin-right: 0;
+    }
+    .footer-bottom__left {
+        order: 2;
+        margin-top: 15px;
     }
 }

@@ -3,7 +3,7 @@ const SubscribeDiscound = () => {
         <div className="present">
             <div className="container">
                 <div className="row">
-                <div className="col-6 d-flex">
+                <div className="col-12 col-lg-6 d-flex">
                     <div className="present-logo">
                         <img src="images/discount/discount-present.svg" alt="discount" />
                     </div>
@@ -12,7 +12,7 @@ const SubscribeDiscound = () => {
                         <p>Stay informed about the latest product launches and news. Learn more about our emails and </p>
                     </div>
                 </div>
-                <div className="col-6 d-flex align-items-center">
+                <div className="col-12 col-lg-6 mt-4 mt-lg-0 d-flex align-items-center">
                     <form action="#" name="discount-subscribe" className="forn-discount__subscribe">
                         <input type="email" placeholder="Enter your email" name="" id="" />
                         <button type="submit">Sign Up</button>
