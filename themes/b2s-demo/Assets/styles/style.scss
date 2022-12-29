@@ -1,9 +1,10 @@
 @import "./fonts.scss";
 @import "./bootstrap/bootstrap.min.css";
-@import 'header';
-@import "footer";
+@import "header";
+@import "tabs";
 @import "subscribe-discount";
 @import "products";
+@import "footer";
 
 $maincolor: #fbb03b;
 

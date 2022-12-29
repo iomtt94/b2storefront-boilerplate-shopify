@@ -7,6 +7,7 @@ import { arrayOf } from 'prop-types'
 import { ProductType } from '@b2storefront/b2s_core/dist/types/product'
 import SubscribeDiscound from '../Snippets/SubscribeDiscount'
 import ProductsList from '../Snippets/ProductsList'
+import Tabs from '../Snippets/Tabs'
 
 /** 
  * @param {HomePageTmpl.propTypes} props
@@ -23,6 +24,7 @@ const HomePageTmpl = ({ allCollections, allProducts, collections, products }) =>
         description=""
       />
       <section className="section section-home-page">
+        <Tabs />
         <SubscribeDiscound />
         <div className="container">
           <ProductsList />
