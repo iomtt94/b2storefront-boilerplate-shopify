@@ -177,3 +177,23 @@
         margin-right: 8px;
     }
 }
+
+.tab-about__container {
+    padding: 24px;
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+    input {
+        border: 1px solid #EAECEE;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        outline: none;
+        &:focus-within, &:focus {
+            outline: none;
+            transition: all 0.3s ease;
+            outline: none;
+            border: 1px solid #cfd0d1;
+        }
+    }
+}

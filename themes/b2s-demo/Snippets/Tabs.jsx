@@ -11,6 +11,7 @@ const Tabs = () => {
                                 <button class="nav-link active" id="nav-descriton-tab" data-bs-toggle="tab" data-bs-target="#nav-descriton" type="button" role="tab" aria-controls="nav-descriton" aria-selected="true">Description</button>
                                 <button class="nav-link" id="nav-technical-details-tab" data-bs-toggle="tab" data-bs-target="#nav-technical-details" type="button" role="tab" aria-controls="nav-technical-details" aria-selected="false">Technical Details</button>
                                 <button class="nav-link" id="nav-attachments-tab" data-bs-toggle="tab" data-bs-target="#nav-attachments" type="button" role="tab" aria-controls="nav-attachments" aria-selected="false">Attachments</button>
+                                <button class="nav-link" id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about" type="button" role="tab" aria-controls="nav-about" aria-selected="false">Ask about product</button>
                             </div>
                         </nav>
                     </div>
@@ -213,6 +214,23 @@ const Tabs = () => {
                                                     <img src="images/attacments-download.svg" alt="" />
                                                     Download files
                                                 </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="tab-pane fade active show" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+                                <div className="tab-about__container">
+                                    <div className="row">
+                                        <div className="col-5">
+                                            <p>
+                                                Are you curious about the product? Do you have question about using it? Ask us!
+                                            </p>
+                                            <form action="#" name="ask-about">
+                                            <div class="mb-3">
+                                                <label for="Name" class="form-label">Name</label>
+                                                <input type="email" class="form-control" id="Name" aria-describedby="Name" />
+                                            </div>
                                             </form>
                                         </div>
                                     </div>
