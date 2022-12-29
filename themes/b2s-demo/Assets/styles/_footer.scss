@@ -67,7 +67,7 @@
             width: 100%;
             background: #1071FF;
             border-radius: 30px;
-            padding: 16px 32px;
+            padding: 16px 16px;
             border: none;
             color: #fff;
             font-family: 'Basier Square';
@@ -167,5 +167,86 @@
                 color: rgb(45, 113, 197);
             }
         }
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .form-check {
+        &-label {
+            flex-direction: column;
+            align-items: baseline;
+        }
+    }
+    .footer-sign__up button[type=submit] {
+        padding: 16px 16px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .footer-sign__up {
+        .form-check {
+            width: 100%;
+            flex: 1 1 auto;
+            display: flex;
+        }
+        form {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        input[type=email] {
+            flex: 1 1 50%;
+            display: flex;
+            margin-right: 15px;
+        }
+        button[type=submit] {
+            flex: 1 1 45%;
+            display: flex;
+            margin-right: 10px;
+            text-align: center;
+            justify-content: center;
+        }
+    }
+    .footer-links__container {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer-links__container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer-links__container {
+        display: grid;
+        grid-template-columns: auto;
+        place-content: baseline;
+        & > ul {
+            width: 100%;
+        }
+    }
+    .form-check-label {
+        flex-direction: row;
+    }
+    .footer-sign__up {
+        input[type=email] {
+            flex: 1 1 100%;
+            display: flex;
+            margin-right: 0px;
+        }
+        button[type=submit] {
+            flex: 1 1 100%;
+            display: flex;
+            margin-right: 0px;
+            text-align: center;
+            justify-content: center;
+        }
+    }
+    .footer-bottom {
+        flex-direction: column;
     }
 }

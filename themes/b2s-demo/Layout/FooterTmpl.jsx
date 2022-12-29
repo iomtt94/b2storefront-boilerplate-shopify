@@ -10,7 +10,7 @@ const FooterTmpl = () => {
     <footer className="footer mt-5">
         <div className="container">
             <div className="row">
-                <div className="col-3">
+                <div className="col-12 col-lg-3">
                     <div className="footer-sign__up">
                         <h3>
                             Sign up for news
@@ -28,7 +28,7 @@ const FooterTmpl = () => {
                         </form>
                     </div>
                 </div>
-                <div className="col-9 footer-links__container">
+                <div className="col-12 col-lg-9 footer-links__container">
                     <ul>
                         <li>How to buy</li>
                         <li>

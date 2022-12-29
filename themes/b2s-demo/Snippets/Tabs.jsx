@@ -7,19 +7,20 @@ const Tabs = () => {
                 <div className="row">
                     <div className="col-12">
                         <nav>
-                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                <button class="nav-link active" id="nav-descriton-tab" data-bs-toggle="tab" data-bs-target="#nav-descriton" type="button" role="tab" aria-controls="nav-descriton" aria-selected="true">Description</button>
-                                <button class="nav-link" id="nav-technical-details-tab" data-bs-toggle="tab" data-bs-target="#nav-technical-details" type="button" role="tab" aria-controls="nav-technical-details" aria-selected="false">Technical Details</button>
-                                <button class="nav-link" id="nav-attachments-tab" data-bs-toggle="tab" data-bs-target="#nav-attachments" type="button" role="tab" aria-controls="nav-attachments" aria-selected="false">Attachments</button>
-                                <button class="nav-link" id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about" type="button" role="tab" aria-controls="nav-about" aria-selected="false">Ask about product</button>
+                            <div className="nav nav-tabs" id="nav-tab" role="tablist">
+                                <button className="nav-link active" id="navDescritonTab" data-bs-toggle="tab" data-bs-target="#navDescriton" type="button" role="tab" aria-controls="navDescriton" aria-selected="true">Description</button>
+                                <button className="nav-link" id="navTechnicalDetailsTab" data-bs-toggle="tab" data-bs-target="#navTechnicalDetails" type="button" role="tab" aria-controls="navTechnicalDetails" aria-selected="false">Technical Details</button>
+                                <button className="nav-link" id="navAttachmentsTab" data-bs-toggle="tab" data-bs-target="#navAttachments" type="button" role="tab" aria-controls="navAttachments" aria-selected="false">Attachments</button>
+                                <button className="nav-link" id="navShippingPaymentsTab" data-bs-toggle="tab" data-bs-target="#navShippingPayments" type="button" role="tab" aria-controls="navShippingPayments" aria-selected="false">Shipping & Payments</button>
+                                <button className="nav-link" id="navAboutTab" data-bs-toggle="tab" data-bs-target="#navAbout" type="button" role="tab" aria-controls="navAbout" aria-selected="false">Ask about product</button>
                             </div>
                         </nav>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-12">
-                        <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade active show" id="nav-descriton" role="tabpanel" aria-labelledby="nav-descriton-tab">
+                        <div className="tab-content" id="nav-tabContent">
+                            <div className="tab-pane fade active show" id="navDescriton" role="tabpanel" aria-labelledby="navDescritonTab">
                                 <div className="tab-description__container">
                                     <div className="row">
                                         <div className="col-7">
@@ -48,11 +49,11 @@ const Tabs = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="nav-technical-details" role="tabpanel" aria-labelledby="nav-technical-details-tab">
+                            <div className="tab-pane fade" id="navTechnicalDetails" role="tabpanel" aria-labelledby="navTechnicalDetailsTab">
                                 <div className="tab-technical__container">
                                     <div className="row">
                                         <div className="col-5">
-                                            <table class="table table-striped">
+                                            <table className="table table-striped">
                                                 <tbody>
                                                     <tr>
                                                         <td>Parameter 1 </td>
@@ -106,7 +107,7 @@ const Tabs = () => {
                                             </table>
                                         </div>
                                         <div className="col-5">
-                                        <table class="table table-striped">
+                                        <table className="table table-striped">
                                                 <tbody>
                                                     <tr>
                                                         <td>Parameter 1 </td>
@@ -162,7 +163,7 @@ const Tabs = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="nav-attachments" role="tabpanel" aria-labelledby="nav-attachments-tab">
+                            <div className="tab-pane fade" id="navAttachments" role="tabpanel" aria-labelledby="navAttachmentsTab">
                                 <div className="tab-attachments__container">
                                     <div className="row">
                                         <div className="col-12">
@@ -219,7 +220,33 @@ const Tabs = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="tab-pane fade active show" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+
+
+
+
+
+
+                            <div className="tab-pane tab-shipping fade" id="navShippingPayments" role="tabpanel" aria-labelledby="navShippingPaymentsTab">
+                                <div className="tab-shipping__container">
+                                    <div className="row">
+                                        <div className="col-5">
+                                            <h4>Shipping</h4>
+                                            <p>
+                                                Description text for maximum two text lines
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+                            <div className="tab-pane fade" id="navAbout" role="tabpanel" aria-labelledby="navAboutTab">
                                 <div className="tab-about__container">
                                     <div className="row">
                                         <div className="col-5">
@@ -227,10 +254,20 @@ const Tabs = () => {
                                                 Are you curious about the product? Do you have question about using it? Ask us!
                                             </p>
                                             <form action="#" name="ask-about">
-                                            <div class="mb-3">
-                                                <label for="Name" class="form-label">Name</label>
-                                                <input type="email" class="form-control" id="Name" aria-describedby="Name" />
-                                            </div>
+                                                <div className="mb-3">
+                                                    <label for="Name" className="form-label">Name</label>
+                                                    <input type="email" className="form-control" id="Name" aria-describedby="Name" />
+                                                </div>
+                                                <div className="mb-3">
+                                                    <label for="Name" className="form-label">Email</label>
+                                                    <input type="email" className="form-control" id="Name" aria-describedby="Name" />
+                                                </div>
+                                                <div className="mb-4 d-flex flex-column">
+                                                    <label for="Name" className="form-label">Your request</label>
+                                                    <textarea name="" id="" cols="20" rows="5">
+                                                    </textarea>
+                                                </div>
+                                                <button type="submit">Sent request</button>
                                             </form>
                                         </div>
                                     </div>

@@ -4,6 +4,7 @@
 
 .nav-tabs .nav-link {
     border: none;
+    padding: 12px 16px;
     &.active {
         background: #1071FF;
         border-radius: 8px 8px 0px 0px;
@@ -194,6 +195,43 @@
             transition: all 0.3s ease;
             outline: none;
             border: 1px solid #cfd0d1;
+        }
+    }
+    p {
+        font-family: 'Basier Square';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0C0C0C;
+    }
+}
+
+.tab-shipping {
+    padding: 24px 40px!important;
+    &__container {
+        padding: 40px 72px;
+        background-color: #fff;
+        .row {
+            display: flex;
+            justify-content: space-between;
+        }
+        h4 {
+            font-family: 'Basier Circle';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 31px;
+            color: #1071FF;
+            margin-bottom: 30px;
+        }
+        p {
+            font-family: 'Basier Square';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #0C0C0C;
         }
     }
 }
