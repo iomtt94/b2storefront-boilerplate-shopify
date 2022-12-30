@@ -11,6 +11,7 @@ import Tabs from '../Snippets/Tabs'
 import Breadcrumbs from '../Snippets/Breadcrumbs'
 import DefaultBenefits from '../Snippets/DefaultBenefits'
 import BoughtTogether from '../Snippets/BoughtTogether'
+import MerchandiseSliderInfo from '../Snippets/MerchandiseSliderInfo'
 
 /** 
  * @param {HomePageTmpl.propTypes} props
@@ -28,6 +29,7 @@ const HomePageTmpl = ({ allCollections, allProducts, collections, products }) =>
       />
       <section className="section section-home-page">
         <Breadcrumbs />
+        <MerchandiseSliderInfo />
         <DefaultBenefits />
         <BoughtTogether />
         <Tabs />

@@ -1,0 +1,148 @@
+.merchandise {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 8px;
+    margin-top: 42px;
+    &-slider {
+    }
+    &-info {
+        h3 {
+            font-family: 'Basier Circle';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 36px;
+            color: #0C0C0C;
+        }
+        table {
+            tr {
+                &:first-of-type {
+                    border-bottom: 1px solid #F6F8FB;
+                    td {
+                        padding-bottom: 8px;
+                        border-bottom: none;
+                    }
+                }
+                td {
+                    border-bottom: none;
+                    font-family: 'Basier Square';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #737B7D;
+                }
+                td:last-of-type {
+                    text-align: right;
+                }
+                &:not(:first-of-type) {
+                    td:last-of-type {
+                        font-family: 'Basier Circle';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 26px;
+                        text-align: right;
+                        color: #0C0C0C;
+                    }
+                }
+                &:last-of-type {
+                    border-bottom: 1px solid #F6F8FB;
+                }
+            }
+        }
+        .dropdown {
+            display: inline-flex;
+            align-items: baseline;
+        }
+        .dropdown-type {
+            padding: 11px 45px 11px 16px;
+            border: 1px solid #EAECEE;
+            border-radius: 8px;
+            display: inline-flex;
+            align-items: center;
+            width: 100%;
+            transition: all 0.3s ease;
+            height: 100%;
+            text-align: left;
+            font-family: 'Basier Square';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #737B7D;
+
+            &::after {
+                transition: all .3s ease;
+                content: '';
+                background: url(../images/products/product-arrow-dropdown.svg);
+                width: 12px;
+                height: 9px;
+                background-repeat: no-repeat;
+                border: none;
+                position: absolute;
+                right: 22px;
+                top: 21px;
+                transform: rotate(0deg);
+            }
+            &[aria-expanded=true] {
+                transition: all .3s ease;
+                &::after {
+                    transition: all .3s ease;
+                    transform: rotate(180deg);
+                }
+            }
+        }
+        .product-form__count {
+            margin: 16px 0px;
+            display: grid;
+            grid-template-columns: 0.6fr 0.15fr 0.3fr;
+            gap: 20px 16px;
+        }
+    }
+    &-actions {
+        &__right {
+            display: flex;
+            margin-left: 16px;
+            button {
+                border: none;
+                padding: 0;
+                background-color: transparent;
+                img {
+                    width: 44px;
+                    height: 44px;
+                    min-width: 44px;
+                }
+                &:first-of-type {
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+    button[type=submit] {
+        img {
+            margin-left: 10px;
+            position: relative;
+            top: -3px;
+        }
+    }
+}
+
+.discount-size {
+    font-family: 'Basier Square';
+    font-style: normal;
+    font-weight: 600!important;
+    font-size: 14px;
+    line-height: 24px;
+    color: #F52F2F!important;
+}
+
+.product-form__count {
+    input[type=number] {
+        text-align: center;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}

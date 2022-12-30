@@ -12,7 +12,7 @@ const HeaderTmpl = (props) => {
             <div className="container">
                 <div className="header-top__left">
                     <div className="dropdown">
-                        <button class="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button className="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             Country: <span>Sweden</span>
                         </button>
                         <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -22,7 +22,7 @@ const HeaderTmpl = (props) => {
                         </ul>
                     </div>
                     <div className="dropdown">
-                        <button class="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button className="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             Language: <span>Svenska</span>
                         </button>
                         <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -32,7 +32,7 @@ const HeaderTmpl = (props) => {
                         </ul>
                     </div>
                     <div className="dropdown">
-                        <button class="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button className="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             Currency: <span>$</span>
                         </button>
                         <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -55,7 +55,7 @@ const HeaderTmpl = (props) => {
                         </a>
                     </div>
                     <div className="dropdown dropdown-username">
-                        <button class="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button className="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="images/user.svg" alt="user" />
                             <span>Username Surname</span>
                         </button>
@@ -88,7 +88,7 @@ const HeaderTmpl = (props) => {
             <div className="container">
                 <div className="header-navigation__left">
                     <div className="dropdown">
-                        <button class="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button className="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             <span>HOME & GARDEN</span>
                         </button>
                         <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -98,7 +98,7 @@ const HeaderTmpl = (props) => {
                         </ul>
                     </div>
                     <div className="dropdown">
-                        <button class="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button className="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             <span>MOTORS</span>
                         </button>
                         <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">

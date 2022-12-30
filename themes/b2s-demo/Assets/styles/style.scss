@@ -3,6 +3,7 @@
 @import "inputs";
 @import "header";
 @import "breadcrumbs";
+@import "merchandise-slider-info";
 @import "bought-together";
 @import "default-benefits";
 @import "tabs";
@@ -72,4 +73,8 @@ a {
     text-transform: uppercase;
     border-radius: 1.5rem;
     border-color: #d8d8d8;
+}
+
+.dropdown-menu.show {
+    min-width: 100%;
 }

@@ -78,7 +78,7 @@ const BoughtTogether = () => {
                             </div>
                             <div className="bought-together__continue">
                                 <p className="mb-0">Price for bundle:</p>
-                                <p class="product-price"><span>$95.00</span>net<span>$129.00 net</span></p>
+                                <p className="product-price"><span>$95.00</span>net<span>$129.00 net</span></p>
                                 <form action="#" name="name">
                                     <button type="submit">Add to cart<img src="images/products/arrow-down-product.svg" alt="" /></button>
                                 </form>

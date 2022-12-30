@@ -21,7 +21,7 @@ const FooterTmpl = () => {
                             <button type="submit">Sign up for newsletter</button>
                             <div className="form-check mt-3">
                                 <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <label className="form-check-label" for="flexCheckDefault">
+                                <label className="form-check-label" htmlFor="flexCheckDefault">
                                     I accept <a href="#">the personal data treatment.</a>
                                 </label>
                             </div>

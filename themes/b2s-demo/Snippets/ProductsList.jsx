@@ -65,15 +65,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -132,15 +132,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -199,15 +199,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -270,15 +270,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -351,15 +351,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -418,15 +418,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -485,15 +485,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -556,15 +556,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -637,15 +637,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -704,15 +704,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -770,15 +770,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -841,15 +841,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -921,15 +921,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -987,15 +987,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1053,15 +1053,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1124,15 +1124,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1203,15 +1203,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1269,15 +1269,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1335,15 +1335,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1406,15 +1406,15 @@ const ProductsList = () => {
                         <form action="#" name="name">
                             <div className="product-form__count">
                                 <input type="number" name="quantity" id="" />
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle dropdown-type" type="button" id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Item
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                             </div>

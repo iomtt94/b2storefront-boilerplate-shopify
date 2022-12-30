@@ -174,19 +174,19 @@ const Tabs = () => {
                                                     <span>Documents</span>
                                                     <div className="form-check">
                                                         <input className="form-check-input" type="checkbox" value="" id="technicalData" />
-                                                        <label className="form-check-label" for="technicalData">
+                                                        <label className="form-check-label" htmlFor="technicalData">
                                                             Technical data sheet: TC02882
                                                         </label>
                                                     </div>
                                                     <div className="form-check">
                                                         <input className="form-check-input" type="checkbox" value="" id="Blueprint" />
-                                                        <label className="form-check-label" for="Blueprint">
+                                                        <label className="form-check-label" htmlFor="Blueprint">
                                                             Blueprint
                                                         </label>
                                                     </div>
                                                     <div className="form-check">
                                                         <input className="form-check-input" type="checkbox" value="" id="Manual" />
-                                                        <label className="form-check-label" for="Manual">
+                                                        <label className="form-check-label" htmlFor="Manual">
                                                             Manual
                                                         </label>
                                                     </div>
@@ -195,19 +195,19 @@ const Tabs = () => {
                                                     <span>Certificates</span>
                                                     <div className="form-check">
                                                         <input className="form-check-input" type="checkbox" value="" id="Certificate1" />
-                                                        <label className="form-check-label" for="Certificate1">
+                                                        <label className="form-check-label" htmlFor="Certificate1">
                                                             Certificate 1
                                                         </label>
                                                     </div>
                                                     <div className="form-check">
                                                         <input className="form-check-input" type="checkbox" value="" id="Certificate2" />
-                                                        <label className="form-check-label" for="Certificate2">
+                                                        <label className="form-check-label" htmlFor="Certificate2">
                                                             Certificate 2
                                                         </label>
                                                     </div>
                                                     <div className="form-check">
                                                         <input className="form-check-input" type="checkbox" value="" id="Certificate3" />
-                                                        <label className="form-check-label" for="Certificate3">
+                                                        <label className="form-check-label" htmlFor="Certificate3">
                                                             Certificate 3
                                                         </label>
                                                     </div>
@@ -616,16 +616,16 @@ const Tabs = () => {
                                                     </ol>
                                                 </div>
                                                 <div className="mb-3">
-                                                    <label for="rating-name" className="form-label">Name</label>
+                                                    <label htmlFor="rating-name" className="form-label">Name</label>
                                                     <input type="text" className="form-control" id="rating-name" aria-describedby="rating-name" />
                                                 </div>
                                                 <div className="mb-4 d-flex flex-column">
-                                                    <label for="rating-rewiew" className="form-label">Tell about the product in few words</label>
+                                                    <label htmlFor="rating-rewiew" className="form-label">Tell about the product in few words</label>
                                                     <textarea name="" id="rating-rewiew" cols="20" rows="3">
                                                     </textarea>
                                                 </div>
                                                 <div className="mb-3">
-                                                    <label for="review-file" className="form-label">Attach file</label>
+                                                    <label htmlFor="review-file" className="form-label">Attach file</label>
                                                     <div className="drag-image">
                                                         <button><img src="images/add-file.svg" alt="" />Drag a file here</button>
                                                         <input type="file" hidden />
@@ -646,15 +646,15 @@ const Tabs = () => {
                                             </p>
                                             <form action="#" name="ask-about">
                                                 <div className="mb-3">
-                                                    <label for="Name" className="form-label">Name</label>
+                                                    <label htmlFor="Name" className="form-label">Name</label>
                                                     <input type="email" className="form-control" id="Name" aria-describedby="Name" />
                                                 </div>
                                                 <div className="mb-3">
-                                                    <label for="Name" className="form-label">Email</label>
+                                                    <label htmlFor="Name" className="form-label">Email</label>
                                                     <input type="email" className="form-control" id="Name" aria-describedby="Name" />
                                                 </div>
                                                 <div className="mb-4 d-flex flex-column">
-                                                    <label for="Name" className="form-label">Your request</label>
+                                                    <label htmlFor="Name" className="form-label">Your request</label>
                                                     <textarea name="" id="" cols="20" rows="5">
                                                     </textarea>
                                                 </div>
