@@ -8,6 +8,8 @@ import { ProductType } from '@b2storefront/b2s_core/dist/types/product'
 import SubscribeDiscound from '../Snippets/SubscribeDiscount'
 import ProductsList from '../Snippets/ProductsList'
 import Tabs from '../Snippets/Tabs'
+import Breadcrumbs from '../Snippets/Breadcrumbs'
+import DefaultBenefits from '../Snippets/DefaultBenefits'
 
 /** 
  * @param {HomePageTmpl.propTypes} props
@@ -24,6 +26,8 @@ const HomePageTmpl = ({ allCollections, allProducts, collections, products }) =>
         description=""
       />
       <section className="section section-home-page">
+        <Breadcrumbs/>
+        <DefaultBenefits/>
         <Tabs />
         <SubscribeDiscound />
         <div className="container">

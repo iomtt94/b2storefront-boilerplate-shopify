@@ -47,10 +47,11 @@ input[type=search] {
         line-height: 24px;
         color: #737B7D;
     }
-    &:focus-within {
+    &:focus-within, &:focus {
         transition: all 0.3s ease;
         outline: none;
         border: 1px solid #cfd0d1;
+        box-shadow: none;
     }
 }
 
@@ -59,10 +60,37 @@ input[type=number] {
     border-radius: 8px;
     padding: 11px 16px;
     transition: all .3s ease;
-    &:focus-within {
+    &:focus-within, &:focus {
         transition: all 0.3s ease;
         outline: none;
         border: 1px solid #cfd0d1;
+        box-shadow: none;
+    }
+}
+
+input[type=text] {
+    border: 1px solid #EAECEE;
+    border-radius: 8px;
+    padding: 11px 16px;
+    transition: all .3s ease;
+    &:focus-within, &:focus {
+        transition: all 0.3s ease;
+        outline: none;
+        border: 1px solid #cfd0d1;
+        box-shadow: none;
+    }
+}
+
+input[type=file] {
+    border: 1px solid #EAECEE;
+    border-radius: 8px;
+    padding: 11px 16px;
+    transition: all .3s ease;
+    &:focus-within, &:focus {
+        transition: all 0.3s ease;
+        outline: none;
+        border: 1px solid #cfd0d1;
+        box-shadow: none;
     }
 }
 
@@ -92,6 +120,7 @@ textarea {
         transition: all 0.3s ease;
         outline: none;
         border: 1px solid #cfd0d1;
+        box-shadow: none;
     }
 }
 

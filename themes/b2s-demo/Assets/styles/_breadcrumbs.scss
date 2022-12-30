@@ -1,0 +1,39 @@
+.breadcrumbs {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    flex-wrap: wrap;
+    li {
+        margin: 2px 0px;
+        position: relative;
+        &:first-child {
+            a {
+                margin-left: 0;
+            }
+        }
+        &:after {
+            content: "/";
+            margin: 0 8px;
+            position: relative;
+        }
+        a {
+            margin: 0px;
+            font-family: 'Basier Square';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #737B7D;
+            &.active {
+                color: #0C0C0C;
+            }
+        }
+        &:last-child {
+            &::after {
+                content: none;
+            }
+        }
+    }
+}
