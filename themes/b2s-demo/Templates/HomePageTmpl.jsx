@@ -10,6 +10,7 @@ import ProductsList from '../Snippets/ProductsList'
 import Tabs from '../Snippets/Tabs'
 import Breadcrumbs from '../Snippets/Breadcrumbs'
 import DefaultBenefits from '../Snippets/DefaultBenefits'
+import BoughtTogether from '../Snippets/BoughtTogether'
 
 /** 
  * @param {HomePageTmpl.propTypes} props
@@ -26,8 +27,9 @@ const HomePageTmpl = ({ allCollections, allProducts, collections, products }) =>
         description=""
       />
       <section className="section section-home-page">
-        <Breadcrumbs/>
-        <DefaultBenefits/>
+        <Breadcrumbs />
+        <DefaultBenefits />
+        <BoughtTogether />
         <Tabs />
         <SubscribeDiscound />
         <div className="container">
