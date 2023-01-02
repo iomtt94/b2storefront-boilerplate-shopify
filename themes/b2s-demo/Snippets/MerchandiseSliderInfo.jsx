@@ -1,14 +1,199 @@
-import React from "react";
+import React, { useState } from 'react';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-const MerchandiseSliderInfo = () => {
+
+
+
+export default function MerchandiseSliderInfo() {
+    const [nav1, setNav1] = useState();
+    const [nav2, setNav2] = useState();
+
+    const settingsThumb = {
+        asNavFor: nav2,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        vertical: true,
+        arrows: true,
+        infinite: true,
+        verticalSwiping: true,
+        ref: (slider1) => setNav1(slider1)
+    };
+
+    const settingsFor = {
+        asNavFor: nav1,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        focusOnSelect: true,
+        arrows: true,
+        swipeToSlide: true,
+        fade: true,
+        ref: (slider2) => setNav2(slider2)
+    };
+
     return (
-        <>
             <div className="container">
                 <div className="merchandise">
                     <div className="merchandise-slider">
-
-
+                        <div class="vehicle-detail-banner banner-content clearfix">
+                            <div class="banner-slider">
+                                <>
+                                    <Slider className="slider-nav thumb-image" {...settingsThumb}>
+                                        <div class="thumbnail-image">
+                                            <div class="thumbImg">
+                                                <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                            </div>
+                                        </div>
+                                        <div class="thumbnail-image">
+                                            <div class="thumbImg">
+                                            <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                            </div>
+                                        </div>
+                                        <div class="thumbnail-image">
+                                            <div class="thumbImg">
+                                            <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                            </div>
+                                        </div>
+                                        <div class="thumbnail-image">
+                                            <div class="thumbImg">
+                                            <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                            </div>
+                                        </div>
+                                        <div class="thumbnail-image">
+                                            <div class="thumbImg">
+                                            <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                            </div>
+                                        </div>
+                                        <div class="thumbnail-image">
+                                            <div class="thumbImg">
+                                            <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                            </div>
+                                        </div>
+                                        <div class="thumbnail-image">
+                                            <div class="thumbImg">
+                                            <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                            </div>
+                                        </div>
+                                        <div class="thumbnail-image">
+                                            <div class="thumbImg">
+                                            <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                            </div>
+                                        </div>
+                                        <div class="thumbnail-image">
+                                            <div class="thumbImg">
+                                            <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                            </div>
+                                        </div>
+                                    </Slider>
+                                </>
+                                <>
+                                <Slider className="slider slider-for" {...settingsFor}>
+                                    <div class="slider-banner-image">
+                                        <div className="product-actions__top merchandise-slider__top">
+                                            <span className="product-discount">
+                                                -15%
+                                            </span>
+                                            <span className="product-bookmark">
+                                                <img src="images/product-star.svg" alt="" />
+                                            </span>
+                                        </div>
+                                        <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                    </div> 
+                                    <div class="slider-banner-image">
+                                        <div className="product-actions__top merchandise-slider__top">
+                                            <span className="product-discount">
+                                                -15%
+                                            </span>
+                                            <span className="product-bookmark">
+                                                <img src="images/product-star.svg" alt="" />
+                                            </span>
+                                        </div>
+                                        <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                    </div> 
+                                    <div class="slider-banner-image">
+                                        <div className="product-actions__top merchandise-slider__top">
+                                            <span className="product-discount">
+                                                -15%
+                                            </span>
+                                            <span className="product-bookmark">
+                                                <img src="images/product-star.svg" alt="" />
+                                            </span>
+                                        </div>
+                                        <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                    </div> 
+                                    <div class="slider-banner-image">
+                                        <div className="product-actions__top merchandise-slider__top">
+                                            <span className="product-discount">
+                                                -15%
+                                            </span>
+                                            <span className="product-bookmark">
+                                                <img src="images/product-star.svg" alt="" />
+                                            </span>
+                                        </div>
+                                        <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                    </div> 
+                                    <div class="slider-banner-image">
+                                        <div className="product-actions__top merchandise-slider__top">
+                                            <span className="product-discount">
+                                                -15%
+                                            </span>
+                                            <span className="product-bookmark">
+                                                <img src="images/product-star.svg" alt="" />
+                                            </span>
+                                        </div>
+                                        <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                    </div> 
+                                    <div class="slider-banner-image">
+                                        <div className="product-actions__top merchandise-slider__top">
+                                            <span className="product-discount">
+                                                -15%
+                                            </span>
+                                            <span className="product-bookmark">
+                                                <img src="images/product-star.svg" alt="" />
+                                            </span>
+                                        </div>
+                                        <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                    </div> 
+                                    <div class="slider-banner-image">
+                                        <div className="product-actions__top merchandise-slider__top">
+                                            <span className="product-discount">
+                                                -15%
+                                            </span>
+                                            <span className="product-bookmark">
+                                                <img src="images/product-star.svg" alt="" />
+                                            </span>
+                                        </div>
+                                        <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                    </div> 
+                                    <div class="slider-banner-image">
+                                        <div className="product-actions__top merchandise-slider__top">
+                                            <span className="product-discount">
+                                                -15%
+                                            </span>
+                                            <span className="product-bookmark">
+                                                <img src="images/product-star.svg" alt="" />
+                                            </span>
+                                        </div>
+                                        <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                    </div> 
+                                    <div class="slider-banner-image">
+                                        <div className="product-actions__top merchandise-slider__top">
+                                            <span className="product-discount">
+                                                -15%
+                                            </span>
+                                            <span className="product-bookmark">
+                                                <img src="images/product-star.svg" alt="" />
+                                            </span>
+                                        </div>
+                                        <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                    </div> 
+                                </Slider>
+                                </>
+                            </div>
+                        </div>
                     </div>
+
                     <div className="merchandise-info">
                         <h3>Product name for maximum two text lines title could be very long </h3>
                         <span className="product-provider">Omnires | Part No. 2123532</span>
@@ -100,8 +285,5 @@ const MerchandiseSliderInfo = () => {
                     </div>
                 </div>
             </div>
-        </>
     )
 }
-
-export default MerchandiseSliderInfo;

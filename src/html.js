@@ -12,8 +12,7 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=no"
         />
         {props.headComponents}
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/splide.min.css" />
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/splide-core.min.css" />
+        <link href="/styles/bootstrap/bootstrap.min.css" />
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
@@ -27,6 +26,7 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
       </body>
+      <script src="/js/bootstrap-js/bootstrap.bundle.min.js" />
     </html>
   )
 }
