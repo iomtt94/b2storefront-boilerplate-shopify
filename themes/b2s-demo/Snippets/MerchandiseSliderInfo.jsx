@@ -12,17 +12,28 @@ export default function MerchandiseSliderInfo() {
 
     const settingsThumb = {
         asNavFor: nav2,
-        slidesToShow: 4,
+        slidesToShow: 1,
         slidesToScroll: 1,
         vertical: true,
         arrows: true,
         infinite: true,
         verticalSwiping: true,
-        ref: (slider1) => setNav1(slider1)
+        ref: (slider1) => setNav1(slider1),
+        centerMode: false,
+        speed: 500,
+        useTransform: true,
+        cssEase: 'cubic-bezier(0.770, 0.000, 0.175, 1.000)',
+        responsive: [
+            {
+              breakpoint: 576,
+              settings: {
+                settings: "unslick"
+              }
+            }
+        ]
     };
 
     const settingsFor = {
-        asNavFor: nav1,
         slidesToShow: 1,
         slidesToScroll: 1,
         focusOnSelect: true,
@@ -36,60 +47,70 @@ export default function MerchandiseSliderInfo() {
             <div className="container">
                 <div className="merchandise">
                     <div className="merchandise-slider">
-                        <div class="vehicle-detail-banner banner-content clearfix">
-                            <div class="banner-slider">
+                        <div className="merchandise-detail-banner banner-content clearfix">
+                            <div className="banner-slider">
                                 <>
-                                    <Slider className="slider-nav thumb-image" {...settingsThumb}>
-                                        <div class="thumbnail-image">
-                                            <div class="thumbImg">
+                                    <Slider className="slider-nav thumb-image" asNavFor={nav1} {...settingsThumb}>
+                                        <div className="thumbnail-image">
+                                            <div className="thumbImg">
                                                 <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
                                             </div>
                                         </div>
-                                        <div class="thumbnail-image">
-                                            <div class="thumbImg">
+                                        <div className="thumbnail-image">
+                                            <div className="thumbImg">
+                                            <img src="https://static.vecteezy.com/packs/media/vectors/term-bg-1-3d6355ab.jpg" alt="slider-img" />
+                                            </div>
+                                        </div>
+                                        <div className="thumbnail-image">
+                                            <div className="thumbImg">
+                                            <img src="https://blog.spoongraphics.co.uk/wp-content/uploads/2022/03/thumbnail-2.jpg" alt="slider-img" />
+                                            </div>
+                                        </div>
+                                        <div className="thumbnail-image">
+                                            <div className="thumbImg">
+                                            <img src="https://www.digitalartsonline.co.uk/cmsdata/features/3668286/motion-graphics-templates-opener2.jpg" alt="slider-img" />
+                                            </div>
+                                        </div>
+                                        <div className="thumbnail-image">
+                                            <div className="thumbImg">
+                                            <img src="http://webtoolfeed.files.wordpress.com/2012/06/vector-graphic.jpg" alt="slider-img" />
+                                            </div>
+                                        </div>
+                                        <div className="thumbnail-image">
+                                            <div className="thumbImg">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGszEZ9YzYmbJody_OI-4wBpWuXtFsZkrQBwqTxKbUrbcoZA3QbCQ3ko5iVY0wzxHckUo&usqp=CAU" alt="slider-img" />
+                                            </div>
+                                        </div>
+                                        <div className="thumbnail-image">
+                                            <div className="thumbImg">
                                             <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
                                             </div>
                                         </div>
-                                        <div class="thumbnail-image">
-                                            <div class="thumbImg">
+                                        <div className="thumbnail-image">
+                                            <div className="thumbImg">
                                             <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
                                             </div>
                                         </div>
-                                        <div class="thumbnail-image">
-                                            <div class="thumbImg">
+                                        <div className="thumbnail-image">
+                                            <div className="thumbImg">
+                                            <img src="https://img.freepik.com/free-vector/modern-abstract-background_1048-1003.jpg?w=2000" alt="slider-img" />
+                                            </div>
+                                        </div>
+                                        <div className="thumbnail-image">
+                                            <div className="thumbImg">
                                             <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
                                             </div>
                                         </div>
-                                        <div class="thumbnail-image">
-                                            <div class="thumbImg">
-                                            <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
-                                            </div>
-                                        </div>
-                                        <div class="thumbnail-image">
-                                            <div class="thumbImg">
-                                            <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
-                                            </div>
-                                        </div>
-                                        <div class="thumbnail-image">
-                                            <div class="thumbImg">
-                                            <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
-                                            </div>
-                                        </div>
-                                        <div class="thumbnail-image">
-                                            <div class="thumbImg">
-                                            <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
-                                            </div>
-                                        </div>
-                                        <div class="thumbnail-image">
-                                            <div class="thumbImg">
-                                            <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
+                                        <div className="thumbnail-image">
+                                            <div className="thumbImg">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGszEZ9YzYmbJody_OI-4wBpWuXtFsZkrQBwqTxKbUrbcoZA3QbCQ3ko5iVY0wzxHckUo&usqp=CAU" alt="slider-img" />
                                             </div>
                                         </div>
                                     </Slider>
                                 </>
                                 <>
                                 <Slider className="slider slider-for" {...settingsFor}>
-                                    <div class="slider-banner-image">
+                                    <div className="slider-banner-image">
                                         <div className="product-actions__top merchandise-slider__top">
                                             <span className="product-discount">
                                                 -15%
@@ -99,85 +120,8 @@ export default function MerchandiseSliderInfo() {
                                             </span>
                                         </div>
                                         <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
-                                    </div> 
-                                    <div class="slider-banner-image">
-                                        <div className="product-actions__top merchandise-slider__top">
-                                            <span className="product-discount">
-                                                -15%
-                                            </span>
-                                            <span className="product-bookmark">
-                                                <img src="images/product-star.svg" alt="" />
-                                            </span>
-                                        </div>
-                                        <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
-                                    </div> 
-                                    <div class="slider-banner-image">
-                                        <div className="product-actions__top merchandise-slider__top">
-                                            <span className="product-discount">
-                                                -15%
-                                            </span>
-                                            <span className="product-bookmark">
-                                                <img src="images/product-star.svg" alt="" />
-                                            </span>
-                                        </div>
-                                        <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
-                                    </div> 
-                                    <div class="slider-banner-image">
-                                        <div className="product-actions__top merchandise-slider__top">
-                                            <span className="product-discount">
-                                                -15%
-                                            </span>
-                                            <span className="product-bookmark">
-                                                <img src="images/product-star.svg" alt="" />
-                                            </span>
-                                        </div>
-                                        <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
-                                    </div> 
-                                    <div class="slider-banner-image">
-                                        <div className="product-actions__top merchandise-slider__top">
-                                            <span className="product-discount">
-                                                -15%
-                                            </span>
-                                            <span className="product-bookmark">
-                                                <img src="images/product-star.svg" alt="" />
-                                            </span>
-                                        </div>
-                                        <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
-                                    </div> 
-                                    <div class="slider-banner-image">
-                                        <div className="product-actions__top merchandise-slider__top">
-                                            <span className="product-discount">
-                                                -15%
-                                            </span>
-                                            <span className="product-bookmark">
-                                                <img src="images/product-star.svg" alt="" />
-                                            </span>
-                                        </div>
-                                        <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
-                                    </div> 
-                                    <div class="slider-banner-image">
-                                        <div className="product-actions__top merchandise-slider__top">
-                                            <span className="product-discount">
-                                                -15%
-                                            </span>
-                                            <span className="product-bookmark">
-                                                <img src="images/product-star.svg" alt="" />
-                                            </span>
-                                        </div>
-                                        <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
-                                    </div> 
-                                    <div class="slider-banner-image">
-                                        <div className="product-actions__top merchandise-slider__top">
-                                            <span className="product-discount">
-                                                -15%
-                                            </span>
-                                            <span className="product-bookmark">
-                                                <img src="images/product-star.svg" alt="" />
-                                            </span>
-                                        </div>
-                                        <img src="/images/slider/slider-image-1.jpg" alt="slider-img" />
-                                    </div> 
-                                    <div class="slider-banner-image">
+                                    </div>
+                                    <div className="slider-banner-image">
                                         <div className="product-actions__top merchandise-slider__top">
                                             <span className="product-discount">
                                                 -15%

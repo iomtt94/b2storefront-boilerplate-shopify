@@ -357,6 +357,43 @@
 }
 
 @media screen and (max-width: 1199px) {
+    .header {
+        &-top {
+            & > .container {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                & > div {
+                    padding: 5px;
+                    justify-content: center;
+                    text-align: center;
+                    align-items: center;
+                }
+            }
+            &__right {
+                flex-direction: column;
+                & > div {
+                    padding: 5px;
+                }
+            }
+            &__phone {
+                &::after {
+                    content: none;
+                    width: 0;
+                    height: 0;
+                    margin: 0;
+                }
+            }
+            &__messages {
+                &::after {
+                    content: none;
+                    width: 0;
+                    height: 0;
+                    margin: 0;
+                }
+            }
+        }
+    }
     .header-navigation {
         &__left {
             padding: 15px 0;
@@ -394,6 +431,16 @@
 }
 
 @media screen and (max-width: 767px) {
+    .header {
+        &-top {
+            &__right {
+                flex-direction: column;
+                & > div {
+                    padding: 5px;
+                }
+            }
+        }
+    }
     .header-secondary > .container {
         flex-direction: row;
         flex-wrap: wrap;
@@ -417,6 +464,16 @@
 }
 
 @media screen and (max-width: 576px) {
+    .header {
+        &-top {
+            &__left {
+                flex-direction: column;
+                & > div {
+                    padding: 5px;
+                }
+            }
+        }
+    }
     .header-form__search {
         flex: 1 1 100%;
         margin-right: 0;
