@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { useCustomJavascript } from '@b2storefront/b2s_core/dist/hooks/useCustomJavascript'
 
 const HeaderTmpl = (props) => {
@@ -6,11 +6,18 @@ const HeaderTmpl = (props) => {
     
   })
 
+  const [isActive, setActive] = useState(false);
+
+  const handleToggle = () => {
+    setActive(!isActive);
+  };
+
   return (
     <header className="header">
         <div className="header-top">
             <div className="container">
-                <div className="header-top__left">
+                <button id="toggleHeadMenu" onClick={handleToggle}><img src="/images/global-navigation-bar.svg" alt="" /></button>
+                <div className={isActive ? "header-top__left active" : "header-top__left"}>
                     <div className="dropdown">
                         <button className="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             Country: <span>Sweden</span>
@@ -42,7 +49,7 @@ const HeaderTmpl = (props) => {
                         </ul>
                     </div>
                 </div>
-                <div className="header-top__right">
+                <div className={isActive ? "header-top__right active" : "header-top__right"}>
                     <div className="header-top__phone">
                         <img src="/images/phone.svg" alt="phone" />
                         <a href="tel:+32 (0) 15 28 76 67">+32 (0) 15 28 76 67</a>
